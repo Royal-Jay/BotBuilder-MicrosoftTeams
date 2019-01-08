@@ -32,7 +32,7 @@
 //
 
 
-import * as builder from 'botbuilder';
+import * as builder from '@kno2/botbuilder';
 import { TeamEventBase, MembersAddedEvent, MembersRemovedEvent, TeamRenamedEvent, ChannelCreatedEvent, ChannelDeletedEvent, ChannelRenamedEvent } from './ConversationUpdate'
 import { ChannelInfo, TeamInfo, TenantInfo } from './models';
 

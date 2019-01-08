@@ -1,4 +1,4 @@
-var builder = require('botbuilder');
+var builder = require('@kno2/botbuilder');
 var assert = require('assert');
 var tmAction = require('../lib/models/TaskModuleAction');
 var tmResponse = require('../lib/models/TaskModuleResponse');

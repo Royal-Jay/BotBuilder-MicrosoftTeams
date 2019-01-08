@@ -1,4 +1,4 @@
-let builder = require('botbuilder');
+let builder = require('@kno2/botbuilder');
 let assert = require('assert');
 let lib = require('../lib/TeamsChatConnector');
 

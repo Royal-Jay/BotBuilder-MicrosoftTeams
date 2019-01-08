@@ -32,7 +32,7 @@
 //
 
 
-import * as builder from 'botbuilder';
+import * as builder from '@kno2/botbuilder';
 import * as teams from './';
 import * as sprintf from 'sprintf-js';
 

@@ -1,20 +1,20 @@
 {
-  "name": "botbuilder-teams",
-  "version": "0.2.4",
-  "description": "Microsoft Teams Bot Builder extension SDK",
+  "name": "@kno2/botbuilder-teams",
+  "version": "1.0.1",
+  "description": "Microsoft Teams Bot Builder extension SDK with minor package updates",
   "scripts": {
     "prepublish": "cd src && tsc && copy botbuilder-teams.d.ts ..\\lib",
     "test": "cd test && mocha ."
   },
-  "author": "Microsoft Corp",
+  "author": "Kno2, LLC",
   "license": "MIT",
   "main": "./lib/botbuilder-teams.js",
   "typings": "./lib/botbuilder-teams.d.ts",
-  "dependencies": {
-    "adaptivecards": "^1.0.0",
-    "botbuilder": "^3.11.0",
+  "dependencies": {    
+    "@kno2/botbuilder": "^3.15.0",
+    "adaptivecards": "^1.1.2",
     "crypto": "^1.0.1",
-    "ms-rest": "^1.15.7",
+    "ms-rest": "^2.3.8",
     "sprintf-js": "^1.1.1"
   },
   "devDependencies": {
@@ -23,6 +23,6 @@
     "nodemon": "^1.12.1",
     "mocha": "^2.4.5",
     "restify": "^4.3.1",
-    "typescript": "^2.5.3"
+    "typescript": "^3.2.2"
   }
 }

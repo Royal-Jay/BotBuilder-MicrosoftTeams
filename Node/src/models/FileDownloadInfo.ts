@@ -21,7 +21,7 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-import * as builder from "botbuilder";
+import * as builder from "@kno2/botbuilder";
 
 /** Represents a file download info attachment. */
 export interface IFileDownloadInfo extends builder.IAttachment {

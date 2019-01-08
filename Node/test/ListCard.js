@@ -1,5 +1,5 @@
 var assert = require('assert');
-var builder = require('botbuilder');
+var builder = require('@kno2/botbuilder');
 var lc = require('../lib/models/ListCard');
 
 describe('ListCard', function () {

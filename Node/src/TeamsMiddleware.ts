@@ -30,7 +30,7 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-import * as builder from "botbuilder";
+import * as builder from "@kno2/botbuilder";
 
 // Strip bot mentions from the message text
 export class StripBotAtMentions implements builder.IMiddlewareMap {

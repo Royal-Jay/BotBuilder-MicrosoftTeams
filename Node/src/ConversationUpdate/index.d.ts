@@ -31,7 +31,7 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-import * as builder from 'botbuilder';
+import * as builder from '@kno2/botbuilder';
 import { ChannelInfo, TeamInfo, TenantInfo } from '../models';
 
 /** Types of team events for which a bot can receive notifications. */

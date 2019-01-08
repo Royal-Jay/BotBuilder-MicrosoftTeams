@@ -9,7 +9,7 @@ This Bot demonstrates how to use teams extension for a bot.
 
 import * as util from 'util';
 import * as restify from 'restify';
-import * as builder from 'botbuilder';
+import * as builder from '@kno2/botbuilder';
 import * as https from 'https';
 import * as teams from 'botbuilder-teams';
 import { SimpleFBAuth, IFacebookAppSigninSettings } from './simpleFBAuth';

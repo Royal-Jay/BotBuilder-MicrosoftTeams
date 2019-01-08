@@ -1,4 +1,3 @@
-var builder = require('botbuilder');
 var assert = require('assert');
 var models = require('../lib/models');
 var O365ConnectorCardSection = models.O365ConnectorCardSection;
